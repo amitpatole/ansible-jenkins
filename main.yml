@@ -4,6 +4,5 @@
   gather_facts: false
   become: true
   tasks:
-  - include: tasks/install-java
   - include: tasks/install-jenkins
   
